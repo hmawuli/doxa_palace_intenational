@@ -133,6 +133,30 @@ function Donate() {
         >
           Thank you for your generosity and partnership in our ministry.
         </Typography>
+
+        <Box sx={{ mt: 8, textAlign: 'center' }}>
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom
+            sx={{ mt: 2, fontWeight: 'bold' }}
+          >
+            Privacy Policy
+          </Typography>
+          <Typography
+            variant="body1"
+            color="text.secondary"
+            paragraph
+            sx={{ maxWidth: '800px', mx: 'auto' }}
+          >
+            We keep your personal information private and secure. When you make a 
+            payment through our site, you provide your name, contact information, 
+            payment information, and additional information related to your transaction. 
+            We use this information to process your payment and to ensure your payment 
+            is correctly credited to your account.
+          </Typography>
+        </Box>
+
       </Container>
     </Box>
   );

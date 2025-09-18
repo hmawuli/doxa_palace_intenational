@@ -4,8 +4,8 @@ import Typography from '@mui/material/Typography';
 
 function Footer() {
   return (
-    <Box sx={{ bgcolor: 'primary.main', color: 'white', p: 0.5, mt: 4 }}>
-      <Typography variant="caption" align="center">
+    <Box sx={{ bgcolor: 'primary.main', color: 'white', p: 2, mt: 4, textAlign: 'center' }}>
+      <Typography variant="caption">
         © {new Date().getFullYear()} Doxa Palace International. All Rights Reserved.
       </Typography>
     </Box>

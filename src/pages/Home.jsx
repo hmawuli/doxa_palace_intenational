@@ -26,8 +26,8 @@ function Home() {
       >
         <Box sx={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0, 0, 0, 0.6)' }} />
         <Box sx={{ zIndex: 1, p: 2 }}>
-          <Typography variant="h2" component="h1" gutterBottom sx={{ fontSize: { xs: '2.5rem', sm: '4rem' }, fontWeight: 'bold' }}>
-            Welcome to Doxa Palace
+          <Typography variant="h3" component="h4" gutterBottom sx={{ fontSize: { xs: '2.5rem', sm: '4rem' }, fontWeight: 'bold' }}>
+            Welcome to Doxa Palace 
           </Typography>
           <Typography variant="h5" component="p" gutterBottom sx={{ fontSize: { xs: '1.2rem', sm: '1.5rem' }, mb: 3 }}>
             A vibrant community dedicated to faith, hope, and love.
